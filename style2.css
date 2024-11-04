@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color:#0c0c0c;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding:20px 70% 20px 7.5%; 
+}
+.ico{
+    padding: 20px 6% 20px 0px;
+    background-color:black;
+}
+.logo img{
+    width: 25px;
+}
+.ico img{
+    width: 40px;
+}
+.peg,.if,.gif{
+    display: flex;
+}
+.peg i,.if i,.gif i{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.peg i,.if i,.gif i{
+    display: none;
+}
+.list1 a,.list2 a,.list3 a,.p-nmbr,.bottom a{
+    color:white;
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list1 a:hover,.list2 a:hover,.list3 a:hover{
+    text-decoration: underline;
+}
+.kolumn h5{
+    color: white;
+    font-size: 14px;
+    /* font-weight: lighter; */
+    padding: 15px 0px 5px 30px;
+    width: fit-content;
+}
+/* .list1 li{
+    color: white;
+    text-decoration: none;
+} */
+.kolumn{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 35% 20px 2.5%;
+    /* border-style: solid;
+    border-bottom-color: white;
+    border-width: 1px; */
+    /* margin: 0 6% 0 6%; */
+}
+.bottom-main{
+    /* text-decoration-color: white; */
+    padding-top: 25px;
+    border-top-style: solid;
+    border-top-color: white;
+    border-width: 1px;
+    margin: 0 6% 0 6%;
+}
+.bottom a{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+}
+.bottom a:hover{
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-width: 1px;
+}
+.span{
+    font-size: 30px;
+}
+.footer{
+    padding-bottom: 30px;
+}
+.bottomlist{
+    padding-left: 0 10px 0 0;
+}
+.kol1 li{
+    padding: 5px 0px 5px 0px;
+}
+.kol2 li{
+    padding: 5px 0px 5px 0px;
+}
+.kol3 li{
+    padding: 5px 0px 5px 0px;
+}
+.footer-extension1{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    display: none;
+}
+.footer-extension2{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    display: none;
+}
+.footer-extension3{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    display: none;
+}
